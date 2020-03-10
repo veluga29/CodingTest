@@ -1,3 +1,3 @@
 # DataStructure_and_Algorithm
 
-Study about DataStructure & Algorithm with Python
+Files about studying DataStructure & Algorithm with Python
