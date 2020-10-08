@@ -1,3 +1,6 @@
+# 문제 풀이 실패
+
+# 모범 답안
 from collections import deque
 
 n, m = map(int, input().split())
