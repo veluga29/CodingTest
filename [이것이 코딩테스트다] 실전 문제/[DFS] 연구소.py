@@ -1,5 +1,17 @@
 # 내 풀이 - Pypy에서 2초 내 수행, Python3에서 3.8초
 # 문제점 : DFS를 간편히 수행하기위해 (*) 부분을 삽입했지만 논리적 흐름으로는 약간 부자연스럽다.
+# 해결책 : 방향 벡터를 DFS에 적용해볼 것
+# ex)
+# def virus(x, y):
+#     for i in range(4):
+#         nx = x + dx[i]
+#         ny = y + dy[i]
+#         # 상, 하, 좌, 우 중에서 바이러스가 퍼질 수 있는 경우
+#         if nx >= 0 and nx < n and ny >= 0 and ny < m:
+#             if temp[nx][ny] == 0:
+#                 # 해당 위치에 바이러스 배치하고, 다시 재귀적으로 수행
+#                 temp[nx][ny] = 2
+#                 virus(nx, ny)
 
 from itertools import combinations
 import copy
