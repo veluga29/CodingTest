@@ -1,3 +1,3 @@
-# DataStructure_and_Algorithm
+# CodingTest
 
-Files about studying DataStructure & Algorithm with Python
+Files about solving coding test problems and studying DataStructure & Algorithm with Python
