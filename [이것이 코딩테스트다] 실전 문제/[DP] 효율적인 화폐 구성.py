@@ -22,4 +22,3 @@ if dp[m]:
     print(dp[m])
 else:
     print(-1)
-
