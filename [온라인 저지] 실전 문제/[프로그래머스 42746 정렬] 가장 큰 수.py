@@ -14,11 +14,11 @@ def solution(numbers):
 #     max_num = '0'  # 만들 수 있는 가장 큰 수 저장
 #     # 만들 수 있는 모든 수를 순열로 확인
 #     p_numbers = permutations(numbers, len(numbers))
-
+#
 #     # 모든 경우의 수를 문자열 상태로 비교하며 가장 큰 수 탐색
 #     for p in p_numbers:
 #         num = ''.join(map(str, p))
 #         if eval(num + '>' + max_num):
 #             max_num = num
-
+#
 #     return max_num
